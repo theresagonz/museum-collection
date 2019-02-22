@@ -1,0 +1,50 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+  padding-top: 50px;
+  	font-family: Lato, Helvetica, Arial, Sans-Serif; line-height: 24px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 8px 8px -6px #999;
+  -moz-box-shadow: 0 8px 8px -6px #999;
+  box-shadow: 0 8px 8px -6px #999;
+
+  /* the rest of your styling */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 20px 75px;
+}
+
+img {
+  max-width: 100%;
+  padding: 15px;
+}
+
+.left-column .right-column {
+  
+}
+
+.main-content {
+
+}
+
+.left-column {
+  
+}
