@@ -3,48 +3,60 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-  padding-top: 50px;
+  margin-top: 75px;
   	font-family: Lato, Helvetica, Arial, Sans-Serif; line-height: 24px;
 }
 
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+  /* padding: 40px 15px; */
+  /* text-align: center; */
 }
 
 .navbar {
   -webkit-box-shadow: 0 8px 8px -6px #999;
   -moz-box-shadow: 0 8px 8px -6px #999;
   box-shadow: 0 8px 8px -6px #999;
-
-  /* the rest of your styling */
 }
 
-.navbar-container {
+#logo {
+  padding: 0 20px;
+}
+
+.container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .main-container {
   display: flex;
   justify-content: space-around;
-  width: 80%;
-  padding: 20px 75px;
+  /* width: 80%;*/
+  /* padding: 45px 0;  */
+  /* margin: 90px 0 0 0; */
 }
 
 img {
   max-width: 100%;
-  padding: 15px;
+  padding: 0 0 15px 0;
 }
 
-.left-column .right-column {
+.left-column, .right-column {
   
-}
-
-.main-content {
-
 }
 
 .left-column {
   
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.category {
+  font-weight: 500;
+}
+
+.description {
+  color: #828282;
+  font-weight: 300;
 }
