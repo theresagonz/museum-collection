@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="elephant.png">
+    <link rel="shortcut icon" href="images/elephant.png">
 
     <title>Museum of Awesome</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="./styles/starter-template.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700|Raleway:400,500,600"
+      rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,14 +31,17 @@
   <body>
 
     <div class="navbar navbar-default navbar-fixed-top navbar-container">
-      <div class="container-fluid">
+      <div class="container-fluid navbar-container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo" href="#">MUSEUM</a>
+          <div id="logo">
+            <a class="navbar-brand" href="#">MUSEUM</a>
+          </div>
         </div><!--/.navbar-header -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -44,53 +52,73 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-    <div class="container-fluid main-container">
-      <div class="starter-template row">
-        <div class="title starter-template col-12">
-          <h3>Pterodactylus antiquus</h3>
-        </div>
+    <div class="primary-info-container">
+      <!-- <div class="row"> -->
+      <div class="primary-info">
+        <h2 class="entry-title title"><span class="underline">Pterodactylus antiquus</span></h2>
+        <div>SPECIMEN</div>
       </div>
-      <div class="starter-template row">
-        <div class="left-column col-md-8">
-          <img src="./images/ptero-skeleton.png" alt="Pterodactylus antiquus skeleton">    
-        </div><!-- /.left-column -->
-        <div class="right-column col-md-4">
-          <div class="info">
-            <div class="category">CATALOG NUMBER</div>
-            <div class="description">FR 5802</div>
-          </div>
-          <div class="info">
-            <div class="category">KINGDOM</div>
-            <div class="description">Animalia</div>
-          </div>
-          <div class="info">
-            <div class="category">PHYLUM</div>
-            <div class="description">Chordata</div>
-          </div>
-          <div class="info">
+      <!-- </div> -->
+    </div>
+    <div class="container-fluid main-container">
+      <!-- <div class="row"> -->
+      <div class="pic-column">
+        <div>
+          <img class="feature-pic" src="images/Pterodactylus.png"
+            alt="Pterodactylus antiquus skeleton">
+        </div>
+      </div><!-- /.left-column -->
+      <div class="text-column">
+        <div class="info">
+          <div class="category">CATALOG NUMBER</div>
+          <div class="description">FR 5802</div>
+        </div>
+        <div class="info">
+          <div class="category">DESCRIPTION</div>
+          <div class="description">Holotype specimen of <i>Pterodactylus
+              antiquus</i></div>
+        </div>
+        <div class="info">
+          <div class="category">YEAR FOUND</div>
+          <div class="description">1990</div>
+        </div>
+        <div class="info">
+          <div class="category">TEMPORAL RANGE</div>
+          <div class="description">Early Tithonian, 150.6–148.5 Ma</div>
+        </div>
+        <div class="info">
+          <div class="category">LOCATION</div>
+          <div class="description">Paris, France</div>
+        </div>
+      </div><!-- /.text-column -->
+      <div class="info-box-column">
+        <div class="info-box">
+          <div class="info-box-title title"><span class="underline">SCIENTIFIC
+              CLASSIFICATION</span></div>
+          <div class="info-box-container">
+            <!-- <div class="row"> -->
+            <div class="col-auto info-box-lt">
+              <div class="category">KINGDOM</div>
+              <div class="category">PHYLUM</div>
               <div class="category">ORDER</div>
-              <div class="description">Pterosauria</div>
-          </div>
-          <div class="info">
               <div class="category">SUBORDER</div>
-              <div class="description">Pterodactyloidea</div>
-            </div>
-          <div class="info">
               <div class="category"><i>CLADE</i></div>
-              <div class="description">Pterodactylidae</div>
-            </div>
-            <div class="info">
               <div class="category">GENUS</div>
-              <div class="description">Pterodactylus</div>
-            </div>
-            <div class="info">
               <div class="category">SPECIES</div>
+            </div>
+            <div class="col-auto info-box-rt">
+              <div class="description">Animalia</div>
+              <div class="description">Chordata</div>
+              <div class="description">Pterosauria</div>
+              <div class="description">Pterodactyloidea</div>
+              <div class="description">Pterodactylidae</div>
+              <div class="description">Pterodactylus</div>
               <div class="description">Antiquus</div>
             </div>
-        </div><!-- /.right-column -->
-      </div><!-- /.row -->
-
+          </div>
+        </div><!-- /.left-column -->
+        <!-- </div>/.row -->
+      </div>
     </div><!-- /.container -->
 
 
